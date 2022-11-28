@@ -1,0 +1,15 @@
+package com.example.course2.model;
+
+import lombok.Data;
+
+@Data
+public class Question {
+    private String question;
+    private String answer;
+
+    public Question(String question, String answer) {
+        this.question = question;
+        this.answer = answer;
+    }
+
+}
